@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Speed Test - SpeedTest App</title>
+	<link rel="stylesheet" href="{% static 'css/index.css' %}">
+</head>
+
+<body>
+	<div class="container">
+		<h1>Internet Speed Test</h1>
+		<button id="run-test" class="btn">Run Speed Test</button>
+
+		<div id="results" style="display:none;">
+			<h2>Results:</h2>
+			<p id="download"></p>
+			<p id="upload"></p>
+			<p id="ping"></p>
+		</div>
+
+		<script src="{% static 'js/speedtest.js' %}"></script> <!-- Link to JavaScript file -->
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+/* General Styles */
+body {
+	font-family: 'Arial', sans-serif;
+	background: linear-gradient(to right, #1e3c72, #2a5298);
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.container {
+	text-align: center;
+	background: rgba(0, 0, 0, 0.6);
+	padding: 40px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	max-width: 500px;
+	width: 90%;
+}
+
+h1 {
+	font-size: 2.5rem;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+/* Button Styling */
+.btn {
+	background: #ff6b6b;
+	border: none;
+	padding: 15px 30px;
+	font-size: 1.2rem;
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	outline: none;
+}
+
+.btn:hover {
+	background: #ff4f4f;
+	transform: scale(1.05);
+}
+
+/* Results Section */
+#results {
+	margin-top: 30px;
+	font-size: 1.5rem;
+	animation: fadeIn 1s ease-in-out;
+}
+
+p {
+	background: rgba(255, 255, 255, 0.2);
+	padding: 15px;
+	border-radius: 5px;
+	margin: 10px 0;
+	font-weight: bold;
+}
+
+/* Animations */
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translateY(-20px);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}

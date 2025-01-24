@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SpeedTest App - Home</title>
+	<link rel="stylesheet" href="{% static 'css/home.css' %}">
+</head>
+
+<body>
+	<div class="container">
+		<h1>Welcome to SpeedTest App</h1>
+		<p>Check your internet speed easily!</p>
+		<div class="buttons">
+			<a href="{% url 'signup' %}" class="btn">Sign Up</a>
+			<a href="{% url 'login' %}" class="btn">Log In</a>
+		</div>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+	font-family: 'Arial', sans-serif;
+	background: linear-gradient(to right, #ff512f, #dd2476);
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.container {
+	text-align: center;
+	background: rgba(0, 0, 0, 0.6);
+	padding: 50px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	max-width: 400px;
+	width: 90%;
+}
+
+h1 {
+	font-size: 2rem;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+/* Form Styling */
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+	padding: 12px;
+	margin-bottom: 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 1rem;
+	color: #333;
+}
+
+/* Button Styling */
+.btn {
+	background: #00b09b;
+	border: none;
+	padding: 15px 30px;
+	font-size: 1.2rem;
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.btn:hover {
+	background: #009688;
+	transform: scale(1.05);
+}
+
+/* Link Styling */
+p a {
+	color: #00c6ff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+p a:hover {
+	text-decoration: underline;
+}
